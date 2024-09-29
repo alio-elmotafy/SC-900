@@ -11,7 +11,6 @@ This repository presents a **dual approach** to analyzing e-commerce customer da
 - [Project Workflow](#project-workflow)
 - [Power BI Dashboards](#power-bi-dashboards)
 - [Python (pandas) Analysis](#python-pandas-analysis)
-- [How to Run](#how-to-run)
 - [Results & Insights](#results--insights)
 - [Future Work](#future-work)
 - [Contributing](#contributing)
@@ -99,17 +98,31 @@ The **pandas** analysis in the Jupyter notebook (`newscript.ipynb`) includes:
 
 ---
 
-## How to Run
+## Results & Insights
 
-### Requirements
-- **Python 3.7+**
-- **Power BI Desktop**
-- **Jupyter Notebook**
-- Required Python packages listed in `requirements.txt`
+The analysis led to several **key findings**:
 
-### Steps to Run the Project
+1. **High-Value Customers**: A small percentage of customers account for a large portion of the revenue. These customers are ideal candidates for targeted marketing campaigns.
+2. **Seasonal Trends**: Sales are highly seasonal, with significant spikes during the holiday season. This insight helps in inventory planning and marketing efforts.
+3. **Regional Insights**: Certain regions consistently outperform others, suggesting opportunities for geographic expansion.
+4. **Product Optimization**: Some product categories are underperforming, indicating potential for either discontinuation or marketing push.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/ecommerce_customer_analysis.git
-   cd ecommerce_customer_analysis
+---
+
+## Future Work
+
+- **Predictive Analytics**: Using machine learning to predict future customer behavior and sales trends.
+- **Customer Churn Analysis**: Identifying customers at risk of not returning and targeting them with retention strategies.
+- **Sentiment Analysis**: Integrating social media or review data to understand customer sentiment toward products.
+
+---
+
+## Contributing
+
+If you would like to contribute to this project, feel free to open an issue or submit a pull request. We welcome all contributions, whether in data analysis, visualization, or feature additions.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
